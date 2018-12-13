@@ -240,7 +240,7 @@ GameCtrl.Stage02.prototype = {
 
         this.game.physics.arcade.collide(this.endStage, this.player);
         this.game.physics.arcade.collide(this.floor, this.player);
-        // this.game.physics.arcade.collide(this.floor, this.monkeys);
+        this.game.physics.arcade.collide(this.floor, this.monkeys);
 
         this.player.body.gravity.y=800;
 
@@ -263,7 +263,7 @@ GameCtrl.Stage02.prototype = {
 
         if (this.cursors.right.isDown){
             
-            this.player.body.velocity.x=1000;
+            this.player.body.velocity.x=150;
             
             this.player.animations.play('walkBalance', 10, true);
         }else if (this.cursors.left.isDown){
