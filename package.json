@@ -20,6 +20,6 @@
   },
   "scripts": {
     "start": "grunt",
-    "build": "grund dist"
+    "build": "grunt dist"
   }
 }
