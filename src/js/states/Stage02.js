@@ -153,7 +153,7 @@ GameCtrl.Stage02.prototype = {
             fill : '#fff',
             align : 'center'
         };
-        this.game.add.text(this.game.width / 2 - 180, this.game.height / 2 + 120, 'Kim tu pue, tu pue tu pue\n tu pue du cul', textstyle);
+        this.game.add.text(this.game.width / 2 - 180, this.game.height / 2 + 120, 'Je commence à avoir\nun peu faim... pas vous?', textstyle);
 
 
 

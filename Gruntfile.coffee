@@ -57,7 +57,7 @@ module.exports = (grunt) ->
     cssmin:
       dist:
         files:
-          '<%= DST_FILE %>.min.css': ['<%= SRC_DIR %>/css/**/*.css']
+          '<%= DST_DIR %>/css/main.min.css': ['<%= SRC_DIR %>/css/**/*.css']
 
     htmlmin:
       options:
