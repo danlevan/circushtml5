@@ -146,7 +146,7 @@ GameCtrl.Stage02.prototype = {
         this.cursors =this.game.input.keyboard.createCursorKeys();
         this.world.setBounds(0,0,1024 * 8, 200);
         //this.background=this.game.add.tileSprite(0, 200, 1024, 552, 'background');
-        this.background=this.add.tileSprite(0, 200, 1024 * 8, 552, 'stage02');
+        // this.background=this.add.tileSprite(0, 200, 1024 * 8, 552, 'stage02');
 
         var textstyle = {
             font : '50px "arcadeclasic"',
