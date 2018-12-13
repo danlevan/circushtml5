@@ -4,8 +4,6 @@
   "readme": "",
   "repository": "",
   "version": "0.0.0",
-  "readme": "",
-  "repository": "",
   "dependencies": {},
   "devDependencies": {
     "grunt": "*",
@@ -19,5 +17,9 @@
     "grunt-contrib-watch": "*",
     "grunt-curl": "*",
     "grunt-processhtml": "*"
+  },
+  "scripts": {
+    "start": "grunt",
+    "build": "grund dist"
   }
 }

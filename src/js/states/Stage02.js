@@ -148,6 +148,13 @@ GameCtrl.Stage02.prototype = {
         //this.background=this.game.add.tileSprite(0, 200, 1024, 552, 'background');
         this.background=this.add.tileSprite(0, 200, 1024 * 8, 552, 'stage02');
 
+        var textstyle = {
+            font : '50px "arcadeclasic"',
+            fill : '#fff',
+            align : 'center'
+        };
+        this.game.add.text(this.game.width / 2 - 180, this.game.height / 2 + 120, 'Kim tu pue, tu pue tu pue\n tu pue du cul', textstyle);
+
 
 
         this._createMeters();
